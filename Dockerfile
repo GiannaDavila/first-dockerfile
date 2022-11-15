@@ -6,7 +6,7 @@ COPY . .
 #install our dependencies
 RUN npm install 
 # Set environment variables
-ENV PORT = 3000
+ENV PORT 3000
 #Open up port
 EXPOSE 3000
 # This is the command to run whenever we start a new container
